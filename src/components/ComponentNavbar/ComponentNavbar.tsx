@@ -1,16 +1,20 @@
 import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
 import { coffee, film, heart, menu,trendingup, calender, users, messagecircle, sliders, logout } from '../../common/index'
-const ComponentNavbar = () => {
+// import MenuContext from '../MenuContext/MenuContext'
+import UpperNavbar from '../UpperNavbar/UpperNavbar'
+
+export const MenuContext =React.createContext({});
+
+const ComponentNavbar:React.FC= () => {
  
   const [menuVisible,setMenuVisible]=useState<boolean>(false)
-  
   return (
     <>
       <nav>
-        <div className=" absolute lg:hidden"><button onClick={()=> setMenuVisible(e=>!e)}><img src={menu}/></button></div>
+        <div className="fixed z-[10] lg:hidden"><button onClick={()=> setMenuVisible(e=>!e)}><img src={menu}/></button></div>
 {menuVisible || (
-        <div className="  bg-black flex flex-col text-white px-8  pt-[50px] w-[274px] gap-[40px] h-screen ">
+        <div className="  fixed top-0 bg-black flex flex-col text-white px-8  pt-[50px] w-[274px] shadow-lg shadow-purple-400 gap-[40px] h-screen ">
           <div className='flex gap-[1vw] ' >
             <img src={coffee} />
             <p className="flex font-bold font-poppins text-center justify-center">WATCH </p>
@@ -47,7 +51,10 @@ const ComponentNavbar = () => {
         </div>
  )}
       </nav>
-       
+    
+       {/* <MenuContext.Provider value ={menuVisible}>
+        <UpperNavbar/>
+       </MenuContext.Provider>  */}
     </>
   )
 }
