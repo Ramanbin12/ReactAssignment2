@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js,tsx,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'navimg':"url('/src/common/Images/Rectangle.png')"
+      }
+    },
   },
   plugins: [],
 }

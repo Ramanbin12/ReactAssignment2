@@ -3,8 +3,8 @@ import { ComponentContWatch, ComponentTrending, UpperNavbar } from '../../compon
 const ComponentHome = () => {
   return (
     <>
-    <div className='bg-black ml-[274px] h-full p-4'>
-    <UpperNavbar/>
+    <div className='ml-[274px] bg-black h-full p-4'>
+      <UpperNavbar/>
     <ComponentTrending/>
     <ComponentContWatch/>
     </div>

@@ -1,11 +1,13 @@
 import React from 'react'
-import {search,bell,Ellipse} from "../../common/index"
+import {search,bell,Ellipse,menu} from "../../common/index"
 
 const ComponentNav = () => {
   return (
    <>
-    <div className="flex   justify-between ">
-    
+   {/* <div className="fixed z-[10] lg:hidden"><button onClick={()=> setMenuVisible(e=>!e)}><img src={menu}/></button></div> */}
+
+    <div className="  flex text-white justify-between">
+
     <ul className='flex p-[4px] gap-[1vw]'>
           <li>Movies</li>
           <li>Series</li>

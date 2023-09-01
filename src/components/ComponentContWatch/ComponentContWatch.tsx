@@ -2,6 +2,7 @@ import React,{useState}from 'react'
 import { movieType } from '../../utilities/type'
 import { continueWatching } from '../../utilities/Contants/continueWatching'
 import { heart1,heart2 } from "../../common/index"
+import '../../common/Style.css'
 const ComponentContWatch= () => {
     const [Movies, setMovie] = useState<movieType[]>(continueWatching)
     const setfavToggle = (id: number) => {
@@ -13,7 +14,7 @@ const ComponentContWatch= () => {
   return (
    <>
    <h1 className='text-white m-3 text-2xl '>Continue Watching</h1>
-            <div className='flex overflow-x-auto gap-4 snap-x'>
+            <div className='flex custom-scrollbar overflow-x-auto gap-4 snap-x'>
                 {
                     Movies.map((movie) => {
                         return (
@@ -25,7 +26,7 @@ const ComponentContWatch= () => {
                                              (<img src={heart2} /> 
                                              ): (<img src={heart1} />))}</button>
                                     <div className="p-5 text-black">
-                                        <h3 >{movie.moviename}</h3>
+                                        <h3 className="text-2xl font-bold">{movie.moviename}</h3>
                                         <p >{movie.releaseDate} | {movie.movieType}</p>
                                     </div>
                                 </div>
