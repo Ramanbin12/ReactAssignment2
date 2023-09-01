@@ -8,7 +8,7 @@ import UpperNavbar from '../UpperNavbar/UpperNavbar'
 
 const ComponentNavbar:React.FC= () => {
  
-  const [menuVisible,setMenuVisible]=useState<boolean>(true)
+  const [menuVisible,setMenuVisible]=useState<boolean>(false)
   return (
     <>
       <nav>
