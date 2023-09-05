@@ -1,9 +1,13 @@
 import React from 'react'
-
+import {ComponentNav,ComponentFav} from "../../components/index"
 const ComponentFvourites = () => {
   return (
     <>
-    <h1>favourites</h1>
+    <div className='overflow-x-hidden w-screen bg-black h-screen p-4'>
+
+<ComponentNav/>
+<ComponentFav/>
+</div>
     </>
   )
 }

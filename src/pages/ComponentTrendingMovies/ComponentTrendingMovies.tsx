@@ -3,7 +3,7 @@ import {ComponentNav,ComponentTrending, ComponentWatchDesciption} from "../../co
 const ComponentTrendingMovies = () => {
   return (
     <>
-    <div className='bg-black ml-[274px]  h-full p-4'>
+    <div className='overflow-x-hidden w-[full] bg-black h-full p-4'>
 
     <ComponentNav/>
     <ComponentTrending />

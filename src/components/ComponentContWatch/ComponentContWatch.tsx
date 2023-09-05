@@ -21,7 +21,7 @@ const ComponentContWatch= () => {
                             <div key={movie.id} className=' flex flex-col '>
                                 <div className="relative w-[348px] bg-slate-200 rounded-[20px] text-white " >
                                     <img src={movie.img} />
-                                    <button onClick={() => setfavToggle(movie.id)} className="p-[8px] absolute top-2  left-[300px] rounded-[8px] bg-white">
+                                    <button onClick={() => setfavToggle(movie.id)} className="p-[8px] absolute top-4  left-[300px] rounded-[8px] bg-white">
                                         {(movie.favouritemovie ?
                                              (<img src={heart2} /> 
                                              ): (<img src={heart1} />))}</button>

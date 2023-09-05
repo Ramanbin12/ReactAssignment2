@@ -5,3 +5,6 @@ export {default as ComponentContWatch} from "./ComponentContWatch/ComponentContW
 export {default as ComponentNav} from "./ComponentNav/ComponentNav"
 export {default as ComponentButton} from './ComponentButton/ComponentButton'
 export {default as ComponentWatchDesciption} from './ComponentWatchDescription/ComponentWatchDescription'
+export {default as AppContext} from "../components/AppContext/AppContext"
+export {default as ComponentMenu} from "../components/ComponentMenu/ComponentMenu"
+export {default as ComponentFav} from "./ComponentFav/ComponentFav"
