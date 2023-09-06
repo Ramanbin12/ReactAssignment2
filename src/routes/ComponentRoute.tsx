@@ -1,14 +1,13 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import {ComponentHome,ComponentComingSoon,ComponentTrending,ComponentFavourites} from '../pages/index'
+import {HomePage,TrendingPage,FavouritesPage} from '../pages/index'
 const ComponentRoute = () => {
   return (
    <>
    <Routes>
-    <Route path="/"  element={<ComponentHome/>}/>
-    <Route path="favourites" element={<ComponentFavourites/>}/>
-    <Route path="trending" element={<ComponentTrending/>}/>
-    <Route path="comingsoon" element={<ComponentComingSoon/>}/>
+    <Route path="/"  element={<HomePage/>}/>
+    <Route path="favourites" element={<FavouritesPage/>}/>
+    <Route path="trending" element={<TrendingPage/>}/>
    </Routes>
    </>
   )

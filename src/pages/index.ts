@@ -1,4 +1,3 @@
-export {default as ComponentHome } from './ComponentHome/ComponentHome'
-export {default as ComponentFavourites } from './ComponentFavourites/ComponentFvourites'
-export {default as ComponentTrending} from './ComponentTrending/ComponentTrending'
-export {default as ComponentComingSoon } from './ComponentComingSoon/ComponentComingSoon'
+export {default as HomePage } from './HomePage/HomePage';
+export {default as FavouritesPage } from './FavouritesPage/FavouritesPage';
+export {default as TrendingPage} from './TrendingPage/TrendingPage';
