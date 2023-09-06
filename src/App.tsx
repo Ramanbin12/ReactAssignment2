@@ -1,22 +1,23 @@
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import {useState} from "react"
+import React from 'react';
+import {useState} from 'react';
 import { ComponentNavbar } from './components/index';
-import ComponentRoute from "./routes/ComponentRoute";
+import ComponentRoute from './routes/ComponentRoute';
 import AppContext from './common/AppContext';
 function App() {
-  const[showNav,setShowNav]=useState(false)
-  const[addFav,setAddFav]=useState(false)
+  const[showNav,setShowNav]=useState(false);
+  const[addFav,setAddFav]=useState(false);
   return (
     <div className="App">
       <div className="flex">
         <AppContext.Provider value={{showNav,setShowNav,addFav,setAddFav}}>
-        <ComponentNavbar />
-        <ComponentRoute />
+        <ComponentNavbar/>
+        <ComponentRoute/>
         </AppContext.Provider>
       </div>
        
     </div>
+  
   );
 }
 

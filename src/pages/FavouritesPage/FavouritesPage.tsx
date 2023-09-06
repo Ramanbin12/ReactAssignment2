@@ -1,5 +1,5 @@
-import React from 'react'
-import {ComponentNav,ComponentFav} from "../../components/index"
+import React from 'react';
+import {ComponentNav,ComponentFav} from '../../components/index';
 const FavouritesPage = () => {
   return (
     <>
@@ -9,7 +9,7 @@ const FavouritesPage = () => {
 <ComponentFav/>
 </div>
     </>
-  )
-}
+  );
+};
 
-export default FavouritesPage
+export default FavouritesPage;

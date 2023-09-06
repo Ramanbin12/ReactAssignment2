@@ -1,5 +1,5 @@
-import React from 'react'
-import {ComponentNav,ComponentTrending, ComponentWatchDesciption} from "../../components/index"
+import React from 'react';
+import {ComponentNav,ComponentTrending, ComponentWatchDesciption} from '../../components/index';
 const TrendingPage = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const TrendingPage = () => {
     <ComponentWatchDesciption/>
   </div>
     </>
-  )
-}
+  );
+};
 
-export default TrendingPage
+export default TrendingPage;
