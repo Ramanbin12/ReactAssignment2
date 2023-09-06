@@ -1,5 +1,5 @@
 import React,{createContext} from 'react'
-import { contextType } from '../../utilities/type'
+import { contextType } from '../utilities/type'
 
 const AppContext = createContext<contextType>({
     showNav:false,

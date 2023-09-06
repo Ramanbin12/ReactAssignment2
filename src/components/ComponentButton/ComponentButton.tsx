@@ -1,5 +1,5 @@
 import React from 'react'
-import {heart1} from "../../common/index"
+import {heart1} from "../../assets/index"
 const ComponentButton = () => {
   return (
    <>

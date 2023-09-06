@@ -3,7 +3,7 @@ import './App.css';
 import {useState} from "react"
 import { ComponentNavbar } from './components/index';
 import ComponentRoute from "./routes/ComponentRoute";
-import AppContext from './components/AppContext/AppContext';
+import AppContext from './common/AppContext';
 function App() {
   const[showNav,setShowNav]=useState(false)
   const[addFav,setAddFav]=useState(false)

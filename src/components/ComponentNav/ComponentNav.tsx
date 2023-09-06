@@ -1,5 +1,5 @@
 import React from 'react'
-import {search,bell,Ellipse,menu} from "../../common/index"
+import {search,bell,Ellipse,menu} from "../../assets/index"
 import {ComponentMenu} from "../index"
 const ComponentNav = () => {
   return (

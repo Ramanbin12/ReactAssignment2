@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { heart1, heart2, movie1 } from '../../common/index'
+import { heart1, heart2, movie1 } from '../../assets/index'
 import { trendingMovieData } from "../../utilities/Contants/trendingMovieData"
 import { movieType } from '../../utilities/type'
 import { AppContext } from "../index"

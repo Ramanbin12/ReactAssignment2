@@ -1,6 +1,6 @@
-import{movie4} from "../../common/index"
+import{movie4} from "../../assets/index"
 import {ComponentButton} from '../index'
-import {contwatchingMovie1,star} from "../../common/index"
+import {contwatchingMovie1,star} from "../../assets/index"
 const ComponentWatchDescription = () => {
   return (
   <div className=' flex flex-col mt-4 lg:flex-row text-white justify-between'>

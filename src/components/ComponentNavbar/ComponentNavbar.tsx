@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import { NavLink } from 'react-router-dom'
-import { coffee, film, heart, menu,trendingup, calender, users, messagecircle, sliders, logout } from '../../common/index'
+import { coffee, film, heart, menu,trendingup, calender, users, messagecircle, sliders, logout } from '../../assets/index'
 // import MenuContext from '../MenuContext/MenuContext'
 import UpperNavbar from '../UpperNavbar/UpperNavbar'
 import {AppContext} from "../index"
@@ -24,7 +24,7 @@ const ComponentNavbar:React.FC= () => {
                   <li><NavLink to="/"><span className='flex gap-[2vw] '><img src={film} /><p className='font-medium font-poppins '>Home</p></span></NavLink></li>
                   <li><NavLink to="favourites"><span className='flex gap-[2vw]' ><img src={heart} /><p className='font-medium font-poppins '>Favourites</p></span></NavLink></li>
                   <li><NavLink to='trending'><span className='flex gap-[2vw]' ><img src={trendingup} /><p className='font-medium font-poppins '>Trending</p></span></NavLink></li>
-                  <li><NavLink to="comingsoon"><span className='flex gap-[2vw]'><img src={calender} /><p className='font-medium font-poppins '>Coming soon</p></span></NavLink></li>
+                  <li><span className='flex gap-[2vw]'><img src={calender} /><p className='font-medium font-poppins '>Coming soon</p></span></li>
                 </div>
               </ul>
             </div>

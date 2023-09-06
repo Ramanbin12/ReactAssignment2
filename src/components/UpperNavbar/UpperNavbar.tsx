@@ -1,5 +1,5 @@
 import React, { useContext ,useState} from 'react'
-import {heart1,search,bell,Ellipse} from "../../common/index"
+import {heart1,search,bell,Ellipse} from "../../assets/index"
 import {ComponentNav,ComponentButton} from '../index'
 // import {MenuContext} from '../ComponentNavbar/ComponentNavbar'
 const UpperNavbar = () => {

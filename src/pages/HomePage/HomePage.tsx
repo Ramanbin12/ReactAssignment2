@@ -1,7 +1,7 @@
 import React,{useContext}from 'react'
 import { ComponentContWatch, ComponentTrending, UpperNavbar,AppContext } from '../../components/index'
 
-const ComponentHome = () => {
+const HomePage = () => {
   const {showNav} =useContext(AppContext)
   return (
     
@@ -14,4 +14,4 @@ const ComponentHome = () => {
   )
 }
 
-export default ComponentHome
+export default HomePage

@@ -1,6 +1,6 @@
 import React from 'react'
 import {ComponentNav,ComponentFav} from "../../components/index"
-const ComponentFvourites = () => {
+const FavouritesPage = () => {
   return (
     <>
     <div className='overflow-x-hidden w-screen bg-black h-screen p-4'>
@@ -12,4 +12,4 @@ const ComponentFvourites = () => {
   )
 }
 
-export default ComponentFvourites
+export default FavouritesPage

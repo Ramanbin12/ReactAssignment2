@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-import {menu } from "../../common/index"
+import {menu } from "../../assets/index"
 import {AppContext} from "../../components/index"
 const ComponentMenu = () => {
   const {showNav,setShowNav} =  useContext(AppContext);

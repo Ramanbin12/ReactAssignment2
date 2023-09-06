@@ -1,7 +1,7 @@
 import React,{useState}from 'react'
 import { movieType } from '../../utilities/type'
 import { continueWatching } from '../../utilities/Contants/continueWatching'
-import { heart1,heart2 } from "../../common/index"
+import { heart1,heart2 } from "../../assets/index"
 import '../../common/Style.css'
 const ComponentContWatch= () => {
     const [Movies, setMovie] = useState<movieType[]>(continueWatching)

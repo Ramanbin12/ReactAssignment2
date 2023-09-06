@@ -1,4 +1,4 @@
-import {cw1,cw2,cw3} from "../../common/index"
+import {cw1,cw2,cw3} from "../../assets/index"
 import { movieType } from "../type"
 export const continueWatching:movieType[]=[
     {

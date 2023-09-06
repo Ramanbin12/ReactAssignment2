@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'navimg':"url('/src/common/Images/Rectangle.png')"
+        'navimg':"url('/src/assets/Images/Rectangle.png')"
       }
     },
   },

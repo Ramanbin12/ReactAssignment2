@@ -1,4 +1,4 @@
-import {movie1,movie2,movie3,movie4} from "../../common/index"
+import {movie1,movie2,movie3,movie4} from "../../assets/index"
 import { movieType } from "../type"
 export  const trendingMovieData:movieType[]=[
     {

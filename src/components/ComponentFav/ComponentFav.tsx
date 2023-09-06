@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import { trendingMovieData } from '../../utilities/Contants/trendingMovieData'
-import {heart1,heart2} from "../../common/index"
+import {heart1,heart2} from "../../assets/index"
 import {AppContext} from "../index"
 const ComponentFav = () => {
     const { addFav, setAddFav } = useContext(AppContext)
